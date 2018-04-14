@@ -8,27 +8,30 @@ This program reply the basic usage of linux "wc" command, the syntax that must b
 ```
 $ python3 word_counter.py <Your_File> -option
 ```
-   ⋅⋅* It is possible to count total number of row in file, with option "-r" 
+   + It is possible to count total number of row in file, with option "-r" 
   ```
   $ python3 word_counter.py <Your_File> -r 
   ```
-   ⋅⋅* It is possible to count total number of word in file, with option "-w" 
+   
+   + It is possible to count total number of word in file, with option "-w" 
   ```
   $ python3 word_counter.py <Your_File> -w 
   ```
-   ⋅⋅* It is possible to count total number of character in file, with option "-c" 
+   
+   + It is possible to count total number of character in file, with option "-c" 
   ```
   $ python3 word_counter.py <Your_File> -c 
   ```
-  ⋅⋅* It is possible to count at same time all statistic, without option 
+  
+   + It is possible to count at same time all statistic, without option 
   ```
   $ python3 word_counter.py <Your_File> 
   ```
-  ⋅⋅* Like Linux "wc" it is possible compute the input text that user insert by keyboard, if we don't specifies any file 
+   
+   + Like Linux "wc" it is possible compute the input text that user insert by keyboard, if we don't specifies any file 
   ```
   $ python3 word_counter.py
   ```
-
 
 ## Prerequisites
 
@@ -40,25 +43,6 @@ After istallation check your python version
 ```
 $ python --version
 ```
-
-
-### Installing
-
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
