@@ -6,9 +6,9 @@ This project is a personal version of famouse Linux "wc" command, that can be us
 See a basic explenation of word_count works
 
 **Prerequisites**
-* For run this project is important to have python version 3
+* For run this project is important to have python version 3 or upper
   Install it with:
-  ...
+  ```
    $ sudo apt-get install python3
   ```
   now check your version: 
@@ -16,88 +16,49 @@ See a basic explenation of word_count works
   $ python --version
   ```
 
-This program reply the basic usage of linux "wc" command, the syntax that must be used is the follow: 
-```
-$ python3 word_counter.py <Your_File> -option
-```
-   + It is possible to count total number of row in file, with option "-r" 
+**Basic usage**
+* See basic usage of word_count; this project is develope to emulate Linux "wc", so the functionalities are the same of it.
+  The syntax of word counter is the follow:
   ```
-  $ python3 word_counter.py <Your_File> -r 
-  ```
-   
-   + It is possible to count total number of word in file, with option "-w" 
-  ```
-  $ python3 word_counter.py <Your_File> -w 
-  ```
-   
-   + It is possible to count total number of character in file, with option "-c" 
-  ```
-  $ python3 word_counter.py <Your_File> -c 
+   $ python3 word_counter.py <Your_File> -option
   ```
   
-   + It is possible to count at same time all statistic, without option 
-  ```
-  $ python3 word_counter.py <Your_File> 
-  ```
+ * It is possible to count total number of row in file, add option "-r" 
+   ```
+   $ python3 word_counter.py <Your_File> -r 
+   ```
    
-   + Like Linux "wc" it is possible compute the input text that user insert by keyboard, if we don't specifies any file 
-  ```
-  $ python3 word_counter.py
-  ```
+ * It is possible to count total number of word in file, add option "-w" 
+   ```
+   $ python3 word_counter.py <Your_File> -w 
+   ```
+   
+ * It is possible to count total number of character in file, with option "-c" 
+   ```
+   $ python3 word_counter.py <Your_File> -c 
+   ```
+  
+ * It is possible to compute at same time all statistic, without option 
+   ```
+   $ python3 word_counter.py <Your_File> 
+   ```
+   
+ * It is possible compute the input text that user insert by keyboard, if no file is specified
+   ```
+   $ python3 word_counter.py
+   ```
 
+## Results
+Personal word counter have good performance also with large file. 
+* output of test with file almost 2GB, with computional time:
+   ```
+   (18997956, 246973425, 1196871213)
+   
+   real	0m18.464s
+   user	0m17.980s
+   sys	0m0.456s
 
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
+   ```
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
-
+* **Mario Egidio Carricato** - *Erasmus student AGH* - 
