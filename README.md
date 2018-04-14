@@ -3,7 +3,7 @@
 This is the first homework of the course "Python in the Enterprise", as requested is implemented a personal version of famous Linux "wc" command, that can be used to provide a total of the number of row,        total of the number of words and total of the number of character which are in a input text. 
 
 ## Getting Started
-See a basic explenation of word_count works
+See a basic explanation of word_count works
 
 **Prerequisites**
 * For run this project is important to have python version 3 or upper.                                                    
@@ -18,7 +18,7 @@ See a basic explenation of word_count works
 
 
 **Basic usage**
-* See basic usage of word_count; this project is develope to emulate Linux "wc" ([Linux Word Counter](https://en.wikipedia.org/wiki/Wc_(Unix)))    
+* See basic usage of word_count; this project is developed to emulate Linux "wc" ([Linux Word Counter](https://en.wikipedia.org/wiki/Wc_(Unix)))    
   The syntax of word counter is the follow:
   ```
    $ python3 word_counter.py <Your_File> -option
