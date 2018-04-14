@@ -6,7 +6,7 @@ This project is a personal version of famouse Linux "wc" command, that can be us
 See a basic explenation of word_count works
 
 **Prerequisites**
-* For run this project is important to have python version 3 or upper
+* For run this project is important to have python version 3 or upper.                                                    
   Install it with:
   ```
    $ sudo apt-get install python3
@@ -15,6 +15,7 @@ See a basic explenation of word_count works
   ```
   $ python --version
   ```
+
 
 **Basic usage**
 * See basic usage of word_count; this project is develope to emulate Linux "wc", so the functionalities are the same of it.
