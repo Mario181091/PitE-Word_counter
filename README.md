@@ -5,24 +5,16 @@ This project is a personal version of famouse Linux "wc" command, that can be us
 ## Getting Started
 See a basic explenation of word_count works
 
-### Prerequisites
-
-4. And another item.
-
-⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
-
-⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
-⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
-⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where
-
-For run this project you need to install python version 3
-```
-$ sudo apt-get install python3
-```
-After istallation check your python version 
-```
-$ python --version
-```
+**Prerequisites**
+* For run this project is important to have python version 3
+  Install it with:
+  ...
+   $ sudo apt-get install python3
+  ```
+  now check your version: 
+  ```
+  $ python --version
+  ```
 
 This program reply the basic usage of linux "wc" command, the syntax that must be used is the follow: 
 ```
