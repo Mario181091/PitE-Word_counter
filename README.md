@@ -1,8 +1,28 @@
 # Word_Counter
 
-This project is a personal version of famouse Linux "wc" command, that can be used to provide a total of the number of row, total of the number of words and total of the number of character which are in a input text. 
+This project is a personal version of famouse Linux "wc" command, that can be used to provide a total of the number of row,        total of the number of words and total of the number of character which are in a input text. 
 
-### Getting Started
+## Getting Started
+See a basic explenation of word_count works
+
+### Prerequisites
+
+4. And another item.
+
+⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
+
+⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
+⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
+⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where
+
+For run this project you need to install python version 3
+```
+$ sudo apt-get install python3
+```
+After istallation check your python version 
+```
+$ python --version
+```
 
 This program reply the basic usage of linux "wc" command, the syntax that must be used is the follow: 
 ```
@@ -33,16 +53,7 @@ $ python3 word_counter.py <Your_File> -option
   $ python3 word_counter.py
   ```
 
-## Prerequisites
 
-For run this project you need to install python version 3
-```
-$ sudo apt-get install python3
-```
-After istallation check your python version 
-```
-$ python --version
-```
 
 ## Running the tests
 
