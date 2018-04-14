@@ -1,15 +1,33 @@
+### Word_Counter
+
 This project is a personal version of famouse Linux "wc" command, that can be used to provide a total of the number of row, total of the number of words and total of the number of character which are in a input text. 
 
 ### Getting Started
 
 This program reply the basic usage of linux "wc" command, the syntax that must be used is the follow: 
 ```
-$ sudo apt-get install python3
+$ python3 word_counter.py < Your_File> -option
 ```
-
-
-1. 
-⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
+   1. It is possible to count total number of row in file, with option "-r" 
+  ```
+  $ python3 word_counter.py < Your_File> -r 
+  ```
+   2. It is possible to count total number of word in file, with option "-w" 
+  ```
+  $ python3 word_counter.py < Your_File> -w 
+  ```
+   3. It is possible to count total number of character in file, with option "-c" 
+  ```
+  $ python3 word_counter.py < Your_File> -c 
+  ```
+  4. It is possible to count at same time all statistic, without option 
+  ```
+  $ python3 word_counter.py < Your_File> 
+  ```
+  4. Like Linux "wc" it is possible compute the input text that user insert by keyboard, if we don't specifies any file 
+  ```
+  $ python3 word_counter.py
+  ```
 
 
 ## Prerequisites
