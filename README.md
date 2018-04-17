@@ -62,4 +62,4 @@ Personal word counter reveals good performance also with quite large file.
    ```
 ## Authors
 
-* **Mario Egidio Carricato** - *Erasmus student AGH* - 
+* **Mario Egidio Carricato** - *Erasmus student AGH* - [other projects](https://github.com/mario181091)
