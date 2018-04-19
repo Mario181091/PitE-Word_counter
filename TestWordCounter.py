@@ -35,9 +35,9 @@ class TestWordCounter(unittest.TestCase):
 
     def test_print_statistic(self):
 
-        wrong_txt_file = "wrong.txt"
+        list = []
         out = StringIO()
-        results = wc.print_statistic("", wrong_txt_file, out=out)
+        results = wc.print_statistic("", list, out=out)
         self.assertFalse(results)
 
         wrong_option = "-M"
