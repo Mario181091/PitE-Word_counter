@@ -38,7 +38,7 @@ class PersonalWordCounter:
         def print_statistic(self, option, results, out=sys.stdout):
             if len(results) == 0:
                 out.write("Invalid file input\n")
-                return
+                return False
             if option == "-w":
                 out.write(str(results[2]))
                 out.write("\n")
@@ -54,15 +54,16 @@ class PersonalWordCounter:
             elif option == "":
                 out.write(str(results[0]))
                 out.write(" ")
-                out.write(str(results[2]))
-                out.write(" ")
                 out.write(str(results[1]))
+                out.write(" ")
+                out.write(str(results[2]))
                 out.write("\n")
                 self.tot_num_of_Word = 0
                 self.tot_num_of_Row = 0
                 self.tot_num_of_Char = 0
             else:
                 out.write("Invalid parameter\n")
+                return False
 
         def start_w_c(self, is_not_file_input, file, option):
             if is_not_file_input:
@@ -94,31 +95,6 @@ class PersonalWordCounter:
             else:
                 list_results = []
                 return list_results
-
-
-if __name__ == '__main__':
-    personal_w_c = PersonalWordCounter()
-
-    if len(sys.argv) == 1:
-        is_not_file_input = True
-        option = ""
-        results = personal_w_c.start_w_c(is_not_file_input, "", "")
-        personal_w_c.set_results(results)
-        personal_w_c.print_statistic(option, personal_w_c.get_results())
-
-    elif len(sys.argv) == 2:
-        input_file = sys.argv[1]
-        option = ""
-        results = personal_w_c.start_w_c(False, input_file, option)
-        personal_w_c.set_results(results)
-        personal_w_c.print_statistic(option, personal_w_c.get_results())
-
-    elif len(sys.argv) == 3:
-        input_file = sys.argv[1]
-        option = sys.argv[2]
-        results = personal_w_c.start_w_c(False, input_file, option)
-        personal_w_c.set_results(results)
-        personal_w_c.print_statistic(option, personal_w_c.get_results())
 
 
 
