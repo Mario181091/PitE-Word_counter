@@ -42,15 +42,12 @@ class PersonalWordCounter:
             if option == "-w":
                 out.write(str(results[2]))
                 out.write("\n")
-                self.tot_num_of_Word=0
             elif option == "-r":
                 out.write(str(results[0]))
                 out.write("\n")
-                self.tot_num_of_Row = 0
             elif option == "-c":
                 out.write(str(results[1]))
                 out.write("\n")
-                self.tot_num_of_Char=0
             elif option == "":
                 out.write(str(results[0]))
                 out.write(" ")
@@ -58,9 +55,6 @@ class PersonalWordCounter:
                 out.write(" ")
                 out.write(str(results[2]))
                 out.write("\n")
-                self.tot_num_of_Word = 0
-                self.tot_num_of_Row = 0
-                self.tot_num_of_Char = 0
             else:
                 out.write("Invalid parameter\n")
                 return False
