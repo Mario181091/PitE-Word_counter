@@ -21,7 +21,7 @@ This is the first homework of the course "Python in the Enterprise", as requeste
 * This project is developed to emulate Linux "wc" ([Linux Word Counter](https://en.wikipedia.org/wiki/Wc_(Unix)))    
   The syntax of word counter is the follow:
   ```
-   $ python3 word_counter.py <Your_File> -option
+   $ python3 wc.py <Your_File> -option
   ```
   
  * It is possible to count total number of row in file, adding option "-r" 
