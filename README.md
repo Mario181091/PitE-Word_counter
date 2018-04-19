@@ -26,27 +26,27 @@ This is the first homework of the course "Python in the Enterprise", as requeste
   
  * It is possible to count total number of row in file, adding option "-r" 
    ```
-   $ python3 word_counter.py <Your_File> -r 
+   $ python3 wc.py <Your_File> -r 
    ```
    
  * It is possible to count total number of word in file, adding option "-w" 
    ```
-   $ python3 word_counter.py <Your_File> -w 
+   $ python3 wc.py <Your_File> -w 
    ```
    
  * It is possible to count total number of character in file, adding option "-c" 
    ```
-   $ python3 word_counter.py <Your_File> -c 
+   $ python3 wc.py <Your_File> -c 
    ```
   
  * It is possible to compute at same time all statistic, without options 
    ```
-   $ python3 word_counter.py <Your_File> 
+   $ python3 wc.py <Your_File> 
    ```
      
  * It is possible to compute the input text that user insert by keyboard, if no text file is specified
    ```
-   $ python3 word_counter.py
+   $ python3 wc.py
    ```
 
 ## Results
