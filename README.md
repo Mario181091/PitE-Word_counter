@@ -1,5 +1,7 @@
 # Word_Counter
 
+[![Coverage Status](https://coveralls.io/repos/github/Mario181091/PitE-Word_counter/badge.svg?branch=master)](https://coveralls.io/github/Mario181091/PitE-Word_counter?branch=master)
+
 This is the first homework of the course "Python in the Enterprise", as requested is implemented a personal version of famous Linux "wc" command, that can be used to provide a total of the number of row,        total of the number of words and total of the number of character which are in a input text. 
 
 ## Getting Started
