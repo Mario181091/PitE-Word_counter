@@ -8,6 +8,7 @@ class PersonalWordCounter:
             self.tot_num_of_Row = 0
             self.tot_num_of_Char = 0
             self.results = []
+            self.text_input = ""
 
         def set_results(self, res):
             self.results = res
@@ -59,12 +60,14 @@ class PersonalWordCounter:
                 out.write("Invalid parameter\n")
                 return False
 
+        def set_Keyboard_input_user(self,text_input):
+            self.text_input = text_input
+
         def start_w_c(self, is_not_file_input, file, option):
             if is_not_file_input:
-                text_input = input()
-                self.tot_num_of_Word += self.count_word(text_input)
+                self.tot_num_of_Word += self.count_word(self.text_input)
                 self.tot_num_of_Row += self.count_row()
-                self.tot_num_of_Char += self.count_character(text_input)
+                self.tot_num_of_Char += self.count_character(self.text_input)
                 list_results = [self.tot_num_of_Row, self.tot_num_of_Char, self.tot_num_of_Word]
                 self.reinit_variable_for_next_step()
                 return list_results

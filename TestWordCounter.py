@@ -33,6 +33,12 @@ class TestWordCounter(unittest.TestCase):
         expected_value = 0
         self.assertEqual(expected_value, len(results))
 
+    def test_no_input_file(self):
+        wc.set_Keyboard_input_user("Hello Man!")
+        results = wc.start_w_c(True, "", "")
+        self.assertIsInstance(results, list)
+
+
     def test_print_statistic(self):
 
         list = []

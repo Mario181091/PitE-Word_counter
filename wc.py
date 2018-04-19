@@ -6,6 +6,8 @@ if __name__ == '__main__':
 
     if len(sys.argv) == 1:
         is_not_file_input = True
+        text_input = input()
+        personal_w_c.set_Keyboard_input_user(text_input)
         option = ""
         results = personal_w_c.start_w_c(is_not_file_input, "", "")
         personal_w_c.set_results(results)
