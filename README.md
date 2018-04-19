@@ -1,5 +1,5 @@
 # Word_Counter
-[![Build Status](https://travis-ci.org/Mario181091/PitE-Word_counter.svg?branch=master)](https://travis-ci.org/Mario181091/PitE-Word_counter)          [![Coverage Status](https://coveralls.io/repos/github/Mario181091/PitE-Word_counter/badge.svg?branch=master)](https://coveralls.io/github/Mario181091/PitE-Word_counter?branch=master)   [![HitCount](http://hits.dwyl.io/Mario181091/PitE-Word_counter.svg)](http://hits.dwyl.io/Mario181091/PitE-Word_counter)
+[![Build Status](https://travis-ci.org/Mario181091/PitE-Word_counter.svg?branch=master)](https://travis-ci.org/Mario181091/PitE-Word_counter)          [![Coverage Status](https://coveralls.io/repos/github/Mario181091/PitE-Word_counter/badge.svg?branch=master&service=Github)](https://coveralls.io/github/Mario181091/PitE-Word_counter?branch=master&service=Github)   [![HitCount](http://hits.dwyl.io/Mario181091/PitE-Word_counter.svg)](http://hits.dwyl.io/Mario181091/PitE-Word_counter)
 
 This is the first homework of the course "Python in the Enterprise", as requested is implemented a personal version of famous Linux "wc" command, that can be used to provide a total of the number of row,        total of the number of words and total of the number of character which are in a input text. 
 
